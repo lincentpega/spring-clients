@@ -16,7 +16,7 @@ public class RestClientsApplication {
 
     private final Logger LOG = LogManager.getLogger(RestClientsApplication.class);
 
-    final List<String> names = List.of("Pens", "Igor", "Vladimir");
+    final List<String> names = List.of("Chelik", "Igor", "Vladimir");
 
     public static void main(String[] args) {
         SpringApplication.run(RestClientsApplication.class, args);
